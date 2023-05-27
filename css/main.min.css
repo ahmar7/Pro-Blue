@@ -12778,7 +12778,7 @@
      min-height: 100%;
      background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f1efef)) calc(0.29*100%/3), -webkit-gradient(linear, left top, left bottom, color-stop(0, #f1efef)) calc(1.2*100%/3), -webkit-gradient(linear, left top, left bottom, color-stop(0, #f1efef)) calc(2.3*100%/3);
      background: linear-gradient(#f1efef 0 0) calc(0.29*100%/3), linear-gradient(#f1efef 0 0) calc(1.2*100%/3), linear-gradient(#f1efef 0 0) calc(2.3*100%/3);
-     background-size: 1px 100%;
+    
      background-repeat: no-repeat;
  }
 
@@ -14809,7 +14809,7 @@
     min-height: auto;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f1efef)) calc(0.29*100%/3), -webkit-gradient(linear, left top, left bottom, color-stop(0, #f1efef)) calc(1.2*100%/3), -webkit-gradient(linear, left top, left bottom, color-stop(0, #f1efef)) calc(2.3*100%/3);
     background: linear-gradient(#f1efef 0 0) calc(0.29*100%/3), linear-gradient(#f1efef 0 0) calc(1.2*100%/3), linear-gradient(#f1efef 0 0) calc(2.3*100%/3);
-    background-size: 1px 100%;
+    
     background-repeat: no-repeat;
 }
 .navbar #hamburger-1.is-active .line:nth-child(2){
@@ -19232,7 +19232,9 @@ button, [type="button"], [type="reset"], [type="submit"] {
      -webkit-transition: all 0.3s ease-in-out;
      transition: all 0.3s ease-in-out;
  }
-
+.about .secTwo.no-marg{
+    margin-top: 50px !important;
+}
  .navbar .hamburger:hover {
      cursor: pointer;
  }
